@@ -53,3 +53,7 @@ func TestEuler10(t *testing.T) {
 	assert.Equal(t, 17, Euler10(10))
 	assert.Equal(t, 142913828922, Euler10(2000000))
 }
+
+func TestEuler11(t *testing.T) {
+	assert.Equal(t, 70600674, Euler11())
+}
